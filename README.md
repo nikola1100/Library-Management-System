@@ -4,7 +4,7 @@
 # Library Management System
 
 ## Overview
-A simple ASP.NET Core Library Management System with full CRUD operations.
+An ASP.NET Core Library Management System with full CRUD operations.
 
 ## Features
 - Book management (Create, Read, Update, Delete)
