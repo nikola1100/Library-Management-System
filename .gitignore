@@ -1,1 +1,17 @@
-.gitignore
+// .gitignore
+/*
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.dbmdl
+*.log
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore sensitive files
+appsettings.json
+appsettings.Development.json
+*/
