@@ -75,23 +75,23 @@ Or if you're using Visual Studio, just press Ctrl + F5.
 4. Test the API
 Once the project is running, open a browser or use Postman to test the API endpoints:
 
-GET all employees:
-GET http://localhost:5000/api/employees
-GET employee by ID:
-GET http://localhost:5000/api/employees/{id}
-POST new employee:
-POST http://localhost:5000/api/employees
+GET all Books:
+GET http://localhost:5000/api/Books
+GET Books by ID:
+GET http://localhost:5000/api/Books/{id}
+POST new Books:
+POST http://localhost:5000/api/Books
 Body (JSON):
 
 {
-    "name": "John Doe",
-    "position": "Manager",
-    "salary": 5000
+    "name": "Wheel Of Time",
+    "Genre": "Fantasy",
+    "Available Copies": 5
 }
-PUT update employee:
-PUT http://localhost:5000/api/employees/{id}
-DELETE an employee:
-DELETE http://localhost:5000/api/employees/{id}
+PUT update Books:
+PUT http://localhost:5000/api/Books/{id}
+DELETE a Book:
+DELETE http://localhost:5000/api/Book/{id}
 
 
 
